@@ -1,0 +1,25 @@
+{
+  "evaluation_protocol": {
+    "type": "stratified_holdout",
+    "test_size": 0.2,
+    "random_state": 42,
+    "note_tr": "Model sat\u0131r metrikleri (accuracy, precision, recall, F1), e\u011fitimde verinin %20'sine ayr\u0131lan tutulmu\u015f test seti \u00fczerindedir. T\u00fcm e\u011fitim CSV'si \u00fczerinde yeniden \u00f6l\u00e7\u00fcm yapmak genelde daha iyimser sonu\u00e7 verir (veri s\u0131z\u0131nt\u0131s\u0131)."
+  },
+  "training_data": {
+    "path": null,
+    "text_col": "(demo)",
+    "label_col": "(demo)",
+    "n_samples_after_clean": 120,
+    "class_counts_0_ham_1_spam": {
+      "0": 60,
+      "1": 60
+    }
+  },
+  "logreg": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "default_artifact": "pipeline_artifacts.joblib"
+}

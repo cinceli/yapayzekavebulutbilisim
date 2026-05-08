@@ -1,0 +1,11 @@
+[theme]
+base = "dark"
+primaryColor = "#b91c1c"
+backgroundColor = "#18181b"
+secondaryBackgroundColor = "#27272a"
+textColor = "#fafafa"
+font = "sans serif"
+
+[client]
+# "viewer": Deploy, Rerun, önbellek temizle üst menüden kalkar (localhost’ta da)
+toolbarMode = "viewer"

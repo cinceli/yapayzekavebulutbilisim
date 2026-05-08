@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sms-spam-detector"
+version = "0.1.0"
+description = "SMS ham/spam ikili sınıflandırma (TF-IDF, scikit-learn)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["spam_detector*"]

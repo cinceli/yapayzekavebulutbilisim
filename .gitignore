@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+# Streamlit: config repoda dursun (Deploy gizleme vb.); sadece gizlileri hariç tut
+.streamlit/secrets.toml
+
+# Eğitilmiş modeller (büyük dosya). Repoya eklemek için satırı yorum satırı yapın.
+models/*.joblib
+!models/.gitkeep
